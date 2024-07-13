@@ -14,7 +14,7 @@
         <ul class="contact-list">
             <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Орел, Московское шоссе, 5д</span></i></li>
 
-            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:8-960-650-20-06" title="Позвоните нам">8-960-650-20-06</a></span></i></li>
+            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:8-960-650-20-06" title="Позвоните нам">8-800-555-35-35</a></span></i></li>
 
             <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Отправь письмо">abelchik.ru@gmail.com</a></span></i></li>
 
