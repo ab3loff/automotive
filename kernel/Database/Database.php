@@ -19,7 +19,7 @@ class Database implements DatabaseInterface
         $keys = implode(', ', array_keys($data));
         $values = implode("', '", array_values($data));
         $query = "INSERT INTO $table ($keys) VALUES ('$values')";
-        print_r($query);
+
         return mysqli_query($this->mysql, $query) ? mysqli_insert_id($this->mysql) : false;
     }
 
