@@ -86,7 +86,7 @@ class Database implements DatabaseInterface
         $database = $this->config->get('database.database');
         $user = $this->config->get('database.user');
         $password = $this->config->get('database.password');
-        $this->mysql = mysqli_connect($host, $user, $password, $database);
+        $this->mysql = mysqli_connect($host, $user, $password, $database, $port) or die('Could not connect to MySQL: ' . mysqli_connect_error());
     }
 
 
